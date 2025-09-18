@@ -40,8 +40,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-// register all endpoints using reflection
-app.MapAllEndpoints(Assembly.GetExecutingAssembly());
 
 app.UseHttpsRedirection();
 
